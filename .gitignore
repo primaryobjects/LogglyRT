@@ -1,0 +1,9 @@
+*.cache
+*.dll
+*.pdb
+*.txt
+!README.txt
+*.suo
+LogglyRT/obj/*
+LogglyRT/bin/*
+*.force
