@@ -16,8 +16,8 @@ namespace LogglyRT
     public class Logger : ILogger
     {
         private readonly string _inputKey;
-        private string _url = "https://logs.loggly.com/inputs/";
-        private readonly string _contentType = "text/plain";
+        private string _url;
+        private readonly string _contentType;
 
         /// <summary>
         /// Constructs a WinRT Loggly logger.
